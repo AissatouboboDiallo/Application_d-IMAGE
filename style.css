@@ -1,0 +1,84 @@
+.divSearch {
+    margin-top: 2%; 
+    padding-left: 30px;
+    margin-bottom: 2%;
+    border:1px solid black;
+    padding: 1em;
+    display: flex;
+    gap: 6px;
+    color:black;
+}
+.containerAff {
+    display: flex;
+    gap:20px;
+}
+#result {
+    position: relative;
+}
+
+.affiche-image {
+    display: flex;
+    width: 30%;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin: 0 auto;
+    border:1px solid black;
+    padding-left: 2px;
+}
+#affiche {
+    width: 70%;
+    border:1px solid black;
+}
+
+#button {
+   /* background-color: rgb(141, 193, 253); */
+   background:linear-gradient(red,yellow);
+    color: rgb(27, 24, 24);
+    border-radius: 10px;
+    font-weight: 600;
+    padding: 0.5em;
+    border: none;
+    font-size: 13px;
+}
+
+#button:hover {
+    opacity: 0.8;
+    transition: all 0.5 ease;
+}
+
+#button:active {
+    background-color: rgb(141, 193, 253);
+    opacity: 1;
+    transition: all 0.5 ease;
+}
+
+input {
+    outline: none;
+    border-radius: 5px;
+    padding: 0.5em;
+    border: 1px solid black;
+}
+
+.position {
+    margin-top: 25%;
+    width: max-content;
+    height: min-content;
+}
+.effetClick:hover {
+    opacity: 0.5;
+}
+#map {
+    margin-top: 2%;
+    height: 400px;
+}
+.long {
+    margin-top: 1%;
+    font-size: 18px;
+    font-weight: 200;
+    padding-left: 5px;
+}
+#textaffiche {
+    height:7px;
+    margin-left: 30px;
+    color:blue;
+}
